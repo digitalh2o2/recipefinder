@@ -1,0 +1,18 @@
+/*
+  ======================================
+  Custom Styles
+  ======================================
+*/
+
+h1 {
+  font-size: 2rem;
+}
+
+.navbar-end {
+  padding-right: 5px;
+}
+
+.input-field {
+  display: flex;
+  justify-content: center;
+}

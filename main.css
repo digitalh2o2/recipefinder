@@ -8,6 +8,11 @@ h1 {
   font-size: 2rem;
 }
 
+img {
+  border: 3px solid #99ccff;
+  border-radius: 50%;
+}
+
 .navbar-end {
   padding-right: 5px;
 }

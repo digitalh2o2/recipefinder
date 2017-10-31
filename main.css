@@ -4,12 +4,9 @@
   ======================================
 */
 
-h1 {
+.navbar-brand > h1 {
+  font-family: "Pacifico", cursive;
   font-size: 3rem;
-}
-
-.navbar-end {
-  padding-right: 5px;
 }
 
 .input-field {
@@ -48,6 +45,11 @@ a:hover {
   Result Recipes
   ======================================
 */
+
+.search-error {
+  font-size: 22px;
+  color: red;
+}
 
 .columns:last-child {
   margin-bottom: 15px;

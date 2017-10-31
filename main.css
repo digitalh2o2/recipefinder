@@ -8,11 +8,6 @@ h1 {
   font-size: 2rem;
 }
 
-img {
-  border: 3px solid #99ccff;
-  border-radius: 50%;
-}
-
 .navbar-end {
   padding-right: 5px;
 }
@@ -20,4 +15,46 @@ img {
 .input-field {
   display: flex;
   justify-content: center;
+}
+
+/*
+  ======================================
+  Images
+  ======================================
+*/
+
+img {
+  border: 3px solid #99ccff;
+  border-radius: 30%;
+}
+
+/*
+  ======================================
+  Result Links
+  ======================================
+*/
+
+a {
+ text-decoration: none;
+ color: black;
+}
+
+a:hover {
+  color: #99ccff;
+}
+
+/*
+  ======================================
+  Result Recipes
+  ======================================
+*/
+.image {
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+   }
+
+.image:hover {
+  opacity: 0.5;
 }

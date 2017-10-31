@@ -7,6 +7,8 @@ let button = document.querySelector('.button');
 const key = config.key;
 const mashH = mashHeaders;
 
+// Event Listeners //
+
 button.addEventListener('click', getPromise);
 search.addEventListener('keyup', function(e){
   if(e.keyCode === 13){
@@ -31,7 +33,7 @@ function getPromise(){
       if(recipes.length > 0){
         for(let i = 1; i < allColumns.length; i++){
           allColumns[i].innerHTML = `
-            <h2><a href="${recipes[i-1].source_url}">${recipes[i-1].title}</a></h2>
+            <h2><a href="${recipes[i-1].source_url}" target="_blank">${recipes[i-1].title}</a></h2>
             <p>By: ${recipes[i-1].publisher}</p>
             <figure class="image is-square">
               <img src="${recipes[i-1].image_url}" alt="Recipe Results">

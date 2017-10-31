@@ -33,10 +33,9 @@ function getPromise(){
       if(recipes.length > 0){
         for(let i = 1; i < allColumns.length; i++){
           allColumns[i].innerHTML = `
-            <h2><a href="${recipes[i-1].source_url}" target="_blank">${recipes[i-1].title}</a></h2>
-            <p>By: ${recipes[i-1].publisher}</p>
+            <h2><a href="${recipes[i-1].source_url}" target="_blank"><strong>${recipes[i-1].title}</strong></a></h2>
             <figure class="image is-square">
-              <img src="${recipes[i-1].image_url}" alt="Recipe Results">
+              <a href="${recipes[i-1].source_url}" target="_blank"><img src="${recipes[i-1].image_url}" alt="Recipe Results"></a>
             </figure>
           `
           allColumns[0].style.display = "none"

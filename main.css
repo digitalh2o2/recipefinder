@@ -5,7 +5,7 @@
 */
 
 h1 {
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .navbar-end {
@@ -48,6 +48,11 @@ a:hover {
   Result Recipes
   ======================================
 */
+
+.columns:last-child {
+  margin-bottom: 15px;
+}
+
 .image {
    opacity: 1;
    transition: opacity .25s ease-in-out;
@@ -58,3 +63,9 @@ a:hover {
 .image:hover {
   opacity: 0.5;
 }
+
+/*
+  ======================================
+  Result Recipes
+  ======================================
+*/

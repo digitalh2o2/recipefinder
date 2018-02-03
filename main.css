@@ -1,8 +1,22 @@
+html,
+body {
+  height: 100%;
+}
+
 /*
   ======================================
   Custom Styles
   ======================================
 */
+.site {
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+}
+
+.site-content {
+  flex: 1;
+}
 
 .navbar-brand > h1 {
   font-family: "Pacifico", cursive;
@@ -32,8 +46,8 @@ img {
 */
 
 a {
- text-decoration: none;
- color: black;
+  text-decoration: none;
+  color: black;
 }
 
 a:hover {
@@ -56,11 +70,11 @@ a:hover {
 }
 
 .image {
-   opacity: 1;
-   transition: opacity .25s ease-in-out;
-   -moz-transition: opacity .25s ease-in-out;
-   -webkit-transition: opacity .25s ease-in-out;
-   }
+  opacity: 1;
+  transition: opacity 0.25s ease-in-out;
+  -moz-transition: opacity 0.25s ease-in-out;
+  -webkit-transition: opacity 0.25s ease-in-out;
+}
 
 .image:hover {
   opacity: 0.5;
@@ -71,3 +85,7 @@ a:hover {
   Result Recipes
   ======================================
 */
+
+.footer {
+  top: 0;
+}
